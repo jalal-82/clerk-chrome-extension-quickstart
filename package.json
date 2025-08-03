@@ -11,9 +11,15 @@
   },
   "dependencies": {
     "@clerk/chrome-extension": "^2.0.0",
-    "plasmo": "0.90.3",
+    "@radix-ui/react-slot": "^1.2.3",
+    "@radix-ui/react-switch": "^1.2.5",
+    "@supabase/supabase-js": "^2.53.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "plasmo": "0.90.5",
     "react": "19.0.0",
     "react-dom": "19.0.0",
+    "tailwind-merge": "^3.3.1",
     "tailwindcss": "3.4.1"
   },
   "devDependencies": {
@@ -36,5 +42,6 @@
       "$CLERK_FRONTEND_API/*"
     ],
     "key": "$CRX_PUBLIC_KEY"
-  }
+  },
+  "packageManager": "pnpm@10.7.0+sha1.66453f13fbf9078d3db193718206a8d738afdbdb"
 }

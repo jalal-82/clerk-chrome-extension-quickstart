@@ -1,0 +1,11 @@
+onlyBuiltDependencies:
+  - '@clerk/shared'
+  - '@parcel/watcher'
+  - '@swc/core'
+  - browser-tabs-lock
+  - core-js
+  - esbuild
+  - keccak
+  - lmdb
+  - msgpackr-extract
+  - sharp
